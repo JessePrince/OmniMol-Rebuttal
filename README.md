@@ -1,4 +1,4 @@
-# Supplementary result for rebuttal
+# Supplementary information for rebuttal
 
 Due to **severe character limit**, we are not able to provide all of the results in OpenReview. To further address your concern, we have included detailed responses and experimental results in separate `markdown` file named after the reviewer name. 
 
