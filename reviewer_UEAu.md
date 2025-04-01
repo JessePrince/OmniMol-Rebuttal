@@ -34,8 +34,7 @@
 > A2: Thank you for raising the point regarding wet-lab experiments. Our decision to limit the use of wet-lab data in training was driven by two primary methodological concerns:
 **(1) Data Volume and Distribution:** Wet-lab datasets are typically small-scale, which restricts the model’s ability to learn robust, generalizable patterns across diverse data distributions.
 **(2) Label Reliability:** The inherent variability and methodological limitations of wet-lab experiments (e.g., experimental noise, reproducibility challenges) can introduce label inaccuracies or ambiguities, thereby compromising data reliability.
-
-That said, we fully acknowledge the importance of integrating multi-source data for comprehensive modeling. To address this, we strategically incorporated a subset of carefully curated wet-lab data during training. The details of data is below:
+We also strategically incorporated a subset of carefully curated wet-lab data during training. The details of data is below:
 | Dataset | Train | Test | Total |
 |---------|-------|------|-------|
 | BACE    | 1362  | 151  | 1513  |
