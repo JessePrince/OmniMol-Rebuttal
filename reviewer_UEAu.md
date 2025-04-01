@@ -31,6 +31,8 @@
 |InstructMol|2.3|
 |Ours|6.7|
 
+We extract the IUPAC in the description if it exists, after that, we judge whether the IUPAC name is exactly matched to the reference.
+
 -----------
 
 
