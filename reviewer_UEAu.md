@@ -120,7 +120,7 @@ We also strategically incorporated a subset of carefully curated wet-lab data du
 
 > Q17: How can the complexity of the training strategy be quantitatively compared? The proposed work also introduces a highly complex training strategy, yet complexity is described as a disadvantage in Lines 57–58.
 >
-> Thank you for your comment. The high training complexity in PRESTO stems from its large-scale pre-training, which involves progressive multi-stage training on approximately 3,400,000 samples. In contrast, our method requires only a single pre-training stage with around 310,000 samples, meaning PRESTO requires 9.44 times more training samples before any task-specific fine-tuning.
+> A17: Thank you for your comment. The high training complexity in PRESTO stems from its large-scale pre-training, which involves progressive multi-stage training on approximately 3,400,000 samples. In contrast, our method requires only a single pre-training stage with around 310,000 samples, meaning PRESTO requires 9.44 times more training samples before any task-specific fine-tuning.
 
 > Q18: Does the definition of conflict collapse originate from other domains, or is it specific to the molecular domain? If it is the latter, could it be applied to other domains? What is the principle used to define conflict collapse?
 
