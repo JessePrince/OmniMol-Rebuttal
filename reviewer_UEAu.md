@@ -1,6 +1,6 @@
 ## Section 1: Comparison results of RDKit and ours
 
-> As demonstrated in table below, our model outperforms RDKit in predicting key properties such as LogP and Complexity, further validating the benefits of our multi-task learning approach.
+> The inclusion of certain regression tasks that can also be performed by RDKit serves to achieve a more generalizable representation space, as outlined in our paper. By training the model on multiple regression tasks, we aim to enhance its ability to leverage shared patterns across tasks, thereby improving overall performance. As demonstrated in table below, our model outperforms RDKit in predicting key properties such as LogP and Complexity, further validating the benefits of our multi-task learning approach.
 
 | Property    | MAE (RDKit) | Ours  |
 |-------------|-------------|-------|
@@ -12,6 +12,13 @@
 
 ## Section 2: Supplemantary results on experimentally measured and classification data
 
+> We incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. In classification, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT
+and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
+
+| Model        | BBBP | HIV  |
+|--------------|------|------|
+| InstructMol  | 70.0 | 74.0 |
+| Ours         | 89.7 | 96.8 |
 
 
 ----------
@@ -39,7 +46,6 @@ We also strategically incorporated a subset of carefully curated wet-lab data du
 Table 1: Dataset information of classification data.
 | Dataset | Train | Test | Total |
 |---------|-------|------|-------|
-| BACE    | 1362  | 151  | 1513  |
 | BBBP    | 1832  | 204  | 2036  |
 | HIV     | 36967 | 4108 | 41075 |
 | **Total**  | **40161** | **4463** | **44624** |
