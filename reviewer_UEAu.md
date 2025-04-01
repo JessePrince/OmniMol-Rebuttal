@@ -28,7 +28,7 @@
 
 |Model|ACC|
 |-----|---|
-|InstructMol|3.2|
+|InstructMol|2.3|
 |Ours|6.7|
 
 -----------
