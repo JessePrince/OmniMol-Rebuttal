@@ -71,4 +71,31 @@
 
 -------------------------
 
-## 2 
+## Section 2: Supplementary evidence of agnostic backbone
+
+> Our framework is agnostic to the backbone and the effectiveness of key modules are validated by ablation study under the same backbone setting. Besides, we also supplement the results by changing the backbone into Vicuna 7B. To save the time, we implement the unify SFT on subsets with only 4 tasks. As shown in Table below, the results clearly indicate that the performance advantage is attributable to the larger parameter size of Vicuna.
+
+**Table 3: Comparison results on forward prediction.**
+| Model              | Exact | BLEU  | Levenshtein | MACCS | RDK   | MORGAN |
+|--------------------|--------|-------|-------------|--------|--------|--------|
+| Ours w. Vicuna 7B  | 0.285  | 0.936 | 16.862      | 0.768 | 0.610 | 0.557  |
+| Ours w. Llama3 1B  | 0.279  | 0.923 | 17.027      | 0.759 | 0.603 | 0.555  |
+
+**Table 4: Comparison results on LogP prediction.**
+| Model              | MAE    |
+|--------------------|--------|
+| Ours w. Vicuna 7B  | 0.5182 |
+| Ours w. Llama3 1B  | 0.6690 |
+
+**Table 5: Comparison results on molecule captioning.**
+| Model      | BLEU-2 | BLEU-4 | ROUGE-1 | ROUGE-2 | ROUGE-L | METEOR |
+|------------|--------|--------|---------|---------|---------|--------|
+| Vicuna 7B  | 0.483  | 0.390  | 0.559   | 0.386   | 0.493   | 0.522  |
+| Ours       | 0.455  | 0.361  | 0.549   | 0.381   | 0.487   | 0.503  |
+
+**Table 6: Comparison results on solvent prediction.**
+| Model     | Exact  | BLEU   | Levenshtein | MACCS  | RDK    | MORGAN | Validity |
+|-----------|--------|--------|-------------|--------|--------|--------|----------|
+| Vicuna 7B | 0.2848 | 0.6203 | 4.0710      | 0.4541 | 0.4296 | 0.3924 | 0.999    |
+| Ours      | 0.2810 | 0.6020 | 4.2140      | 0.4530 | 0.4250 | 0.3879 | 0.999    |
+
