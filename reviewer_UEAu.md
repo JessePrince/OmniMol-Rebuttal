@@ -34,7 +34,9 @@
 
 ## Section 4: Supplemantary Molcap case study
 
+![case](molcap_case.png)
 
+As shown in the figure, higher scores generally indicate that the model can correctly answer a certain aspect of the descriptive task.
 
 -----------
 
