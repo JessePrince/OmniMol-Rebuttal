@@ -1,5 +1,3 @@
-# OmniMol-Rebuttal
-
 ## Section 1: Supplementary evidence for conflicting gradient
 
 > We examine the gradients for each individual task as well as for various combinations of tasks, and compute the cosine similarity between each pair of gradient vectors, focusing particularly on the average weights of the attention and feed-forward layers. By analyzing the angles derived from the cosine similarities, we observe that the directions of these gradients diverge and fail to form a cohesive force. As shown in Table 1, this large angular separation clearly indicates that the gradient directions of most tasks are in conflict when learned jointly. This analysis is also in accordance with the idea of solving the challenging multi-task learning, which is a good example to support our motivation.
