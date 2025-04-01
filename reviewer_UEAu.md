@@ -12,7 +12,7 @@
 
 ## Section 2: Supplemantary results on experimentally measured and classification data
 
-> We incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. In classification, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
+> We incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. These two datasets are collected from wet-lab data described in MoleculeNet. In our classification settings, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
 
 | Model        | BBBP | HIV  |
 |--------------|------|------|
@@ -49,7 +49,7 @@ Table 1: Dataset information of classification data.
 | HIV     | 36967 | 4108 | 41075 |
 | **Total**  | **40161** | **4463** | **44624** |
 
-> We also incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. In classification, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
+> We incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. These two datasets are collected from wet-lab data described in MoleculeNet. In our classification settings, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
 
 | Model        | BBBP | HIV  |
 |--------------|------|------|
