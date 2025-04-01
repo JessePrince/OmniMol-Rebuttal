@@ -33,6 +33,34 @@
 
 Table 1: The complete results of cosine similarity of gradient weight in attention layers, we measured on the following tasks
 
-
+Source Task	Target Task	Similarity	Degree
+forward	molcap	0.04248	87.73
+	homolumo	0.10400	84.15
+	experiment	-0.00705	90.42
+	scf	0.03418	88.18
+	exp&scf	0.00668	89.52
+	scf&logp	0.05151	86.84
+	homo&yield&logp&tpsa	0.05762	86.84
+molcap	homolumo	0.02490	88.63
+	experiment	-0.00491	90.42
+	scf	0.06592	86.39
+	exp&scf	0.00613	89.52
+	scf&logp	0.08154	85.50
+	homo&yield&logp&tpsa	0.09033	84.60
+homolumo	experiment	0.07617	85.50
+	scf	0.02393	88.63
+	exp&scf	0.06348	86.39
+	scf&logp	0.13379	82.36
+	homo&yield&logp&tpsa	0.27539	73.86
+experiment	scf	-0.01459	90.87
+	exp&scf	0.62891	51.03
+	scf&logp	0.02917	88.18
+	homo&yield&logp&tpsa	0.01782	89.08
+scf	exp&scf	0.33984	70.28
+	scf&logp	0.63281	50.81
+	homo&yield&logp&tpsa	0.37695	68.04
+exp&scf	scf&logp	0.28906	73.41
+	homo&yield&logp&tpsa	0.19629	78.78
+scf&logp	homo&yield&logp&tpsa	0.55078	56.62
 
 ## 2 
