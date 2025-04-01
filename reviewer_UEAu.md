@@ -35,6 +35,7 @@
 **(1) Data Volume and Distribution:** Wet-lab datasets are typically small-scale, which restricts the model’s ability to learn robust, generalizable patterns across diverse data distributions.
 **(2) Label Reliability:** The inherent variability and methodological limitations of wet-lab experiments (e.g., experimental noise, reproducibility challenges) can introduce label inaccuracies or ambiguities, thereby compromising data reliability.
 We also strategically incorporated a subset of carefully curated wet-lab data during training. The details of data is below:
+
 | Dataset | Train | Test | Total |
 |---------|-------|------|-------|
 | BACE    | 1362  | 151  | 1513  |
