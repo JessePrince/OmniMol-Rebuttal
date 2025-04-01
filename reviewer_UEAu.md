@@ -1,4 +1,16 @@
-## Section 1: Comparison results of RDKit and ours
+## Section 1: Supplemantary results on experimentally measured and classification data
+
+> We incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. These two datasets are collected from wet-lab data described in MoleculeNet. In our classification settings, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
+
+| Model        | BBBP | HIV  |
+|--------------|------|------|
+| InstructMol  | 70.0 | 74.0 |
+| Ours         | 89.7 | 96.8 |
+
+
+----------
+
+## Section 2: Comparison results of RDKit and ours
 
 > The inclusion of certain regression tasks that can also be performed by RDKit serves to achieve a more generalizable representation space, as outlined in our paper. By training the model on multiple regression tasks, we aim to enhance its ability to leverage shared patterns across tasks, thereby improving overall performance. As demonstrated in table below, our model outperforms RDKit in predicting key properties such as LogP and Complexity, further validating the benefits of our multi-task learning approach.
 
@@ -10,17 +22,7 @@
 
 ---------
 
-## Section 2: Supplemantary results on experimentally measured and classification data
 
-> We incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. These two datasets are collected from wet-lab data described in MoleculeNet. In our classification settings, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
-
-| Model        | BBBP | HIV  |
-|--------------|------|------|
-| InstructMol  | 70.0 | 74.0 |
-| Ours         | 89.7 | 96.8 |
-
-
-----------
 
 ## Section 3: Supplemantary results on IUPAC name identification
 
