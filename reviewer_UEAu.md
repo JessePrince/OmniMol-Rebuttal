@@ -26,7 +26,10 @@
 
 ## Section 3: Supplemantary results on IUPAC name identification
 
-
+|Model|ACC|
+|-----|---|
+|InstructMol|3.2|
+|Ours|6.7|
 
 -----------
 
