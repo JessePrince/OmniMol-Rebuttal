@@ -68,6 +68,7 @@ We also strategically incorporated a subset of carefully curated wet-lab data du
 > Q7: Doubt on RDKit.
 
 > A7: Thank you for your comment. The inclusion of certain regression tasks that can also be performed by RDKit serves to achieve a more generalizable representation space, as outlined in our paper. By training the model on multiple regression tasks, we aim to enhance its ability to leverage shared patterns across tasks, thereby improving overall performance. Additionally, as demonstrated in Table below, our model outperforms RDKit in predicting key properties such as LogP and Complexity, further validating the benefits of our multi-task learning approach.
+
 | Property    | MAE (RDKit) | Ours  |
 |-------------|-------------|-------|
 | LogP        | 1.0619      | 0.59  |
