@@ -12,8 +12,7 @@
 
 ## Section 2: Supplemantary results on experimentally measured and classification data
 
-> We incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. In classification, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT
-and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
+> We incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. In classification, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
 
 | Model        | BBBP | HIV  |
 |--------------|------|------|
@@ -41,7 +40,7 @@ and the baseline results for comparison. We can still observe outperforming adva
 > A2: Thank you for raising the point regarding wet-lab experiments. Our decision to limit the use of wet-lab data in training was driven by two primary methodological concerns:
 **(1) Data Volume and Distribution:** Wet-lab datasets are typically small-scale, which restricts the model’s ability to learn robust, generalizable patterns across diverse data distributions.
 **(2) Label Reliability:** The inherent variability and methodological limitations of wet-lab experiments (e.g., experimental noise, reproducibility challenges) can introduce label inaccuracies or ambiguities, thereby compromising data reliability.
-We also strategically incorporated a subset of carefully curated wet-lab data during training. The details of data is below:
+We also strategically incorporated a subset of carefully curated wet-lab data during training. The details of data is below.
 
 Table 1: Dataset information of classification data.
 | Dataset | Train | Test | Total |
@@ -49,6 +48,13 @@ Table 1: Dataset information of classification data.
 | BBBP    | 1832  | 204  | 2036  |
 | HIV     | 36967 | 4108 | 41075 |
 | **Total**  | **40161** | **4463** | **44624** |
+
+> We also incorporate two binary classification datasets of molecular biological activity, namely BBBP and HIV. In classification, all dataset samples are converted into an instruction format and we use the recommended splits. In the table below, we report our results by unified SFT and the baseline results for comparison. We can still observe outperforming advantages caompared with InstructMol.
+
+| Model        | BBBP | HIV  |
+|--------------|------|------|
+| InstructMol  | 70.0 | 74.0 |
+| Ours         | 89.7 | 96.8 |
 
 > Q3: Lack of multi-step retrosynthesis and reaction conditions.
 
