@@ -1,5 +1,7 @@
 # OmniMol-Rebuttal
-## 1 Supplementary Result for gradient conflict
+## Section 1 Supplementary evidence for conflicting gradient
+
+Table 1: The complete results of cosine similarity of gradient weight in attention layers.
 | Source Task         | Target Task              | Similarity  | Degree |
 |---------------------|--------------------------|-------------|--------|
 | forward             | molcap                   | 0.00106     | 89.97  |
@@ -31,7 +33,7 @@
 | scf&exp             | homo&yield&logp&tpsa     | 0.09668     | 84.60  |
 | scf&logp            | homo&yield&logp&tpsa     | 0.39063     | 67.14  |
 
-Table 1: The complete results of cosine similarity of gradient weight in attention layers, we measured on the following tasks
+Table 2: 
 
 Source Task	Target Task	Similarity	Degree
 forward	molcap	0.04248	87.73
