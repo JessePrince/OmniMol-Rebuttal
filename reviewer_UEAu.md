@@ -31,7 +31,14 @@
 |InstructMol|2.3|
 |Ours|6.7|
 
-We extract the IUPAC name in the description if it exists, after that, we judge whether the IUPAC name is exactly matched to the reference.
+We acknowledge that IUPAC names are a reliable way to verify the correctness of molecular representations. However, in the MolCap dataset, not all samples include IUPAC names, and the accompanying instructions do not explicitly mention IUPAC verification. Therefore, the table above reports the proportion of correct IUPAC recognitions across all test samples in MolCap. Despite this limitation, our method still demonstrates a clear advantage over the baseline.
+
+To further address your concern, we additionally collected 300,000 samples where the model is given a SELFIES input and tasked with generating the corresponding IUPAC name. We reserved 30,000 samples as a test set, and the results are reported in the table below.
+
+|Model|ACC|
+|-----|---|
+|InstructMol|32.17|
+|Ours|43.09|
 
 -----------
 
@@ -132,7 +139,21 @@ Table 1: Dataset information of classification data.
 >
 > Q13: IUPAC name evaluation
 >
-> A13: Accuracy of Omni-Mol is xx, much higher than InstructMol(xx)
+> A13:
+>
+|Model|ACC|
+|-----|---|
+|InstructMol|2.3|
+|Ours|6.7|
+
+> We acknowledge that IUPAC names are a reliable way to verify the correctness of molecular representations. However, in the MolCap dataset, not all samples include IUPAC names, and the accompanying instructions do not explicitly mention IUPAC verification. Therefore, the table above reports the proportion of correct IUPAC recognitions across all test samples in MolCap. Despite this limitation, our method still demonstrates a clear advantage over the baseline.
+
+> To further address your concern, we additionally collected 300,000 samples where the model is given a SELFIES input and tasked with generating the corresponding IUPAC name. We reserved 30,000 samples as a test set, and the results are reported in the table below.
+
+|Model|ACC|
+|-----|---|
+|InstructMol|32.17|
+|Ours|43.09|
 >
 > Q14: Why are BLEU, RDK, MACCS, and Morgan metrics used in the reaction tasks
 >
