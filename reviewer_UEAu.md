@@ -40,6 +40,8 @@ To further address your concern, we additionally collected 300,000 samples where
 |InstructMol|32.17|
 |Ours|43.09|
 
+Here, we attach the dataset link: https://huggingface.co/datasets/OpenMol/SMol_S2I_270K-MMChat
+
 -----------
 
 
@@ -154,6 +156,8 @@ Table 1: Dataset information of classification data.
 |-----|---|
 |InstructMol|32.17|
 |Ours|43.09|
+
+> Here, we attach the dataset link: https://huggingface.co/datasets/OpenMol/SMol_S2I_270K-MMChat
 >
 > Q14: Why are BLEU, RDK, MACCS, and Morgan metrics used in the reaction tasks
 >
